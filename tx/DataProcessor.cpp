@@ -13,7 +13,6 @@ void fillCanetteData(CanetteData &data)
   
   data.packet_num = Packetnum;
   data.commande = Command;
-
   
   memcpy(data.packetAudio, capturAudio, strlen(capturAudio));
   memcpy(data.packetVideo, capturVideo, strlen(capturVideo));
